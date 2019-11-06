@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="website for linfo1212">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <meta http-equiv="refresh" content="30"> -->
+	<link rel="stylesheet" href="css/master.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>Home - BountyHunter</title>
+</head>
+<body>
+	<header id="navbar" class="navbar">
+		<a href="home.html" id="title"><img src="img/bounty-hunter-logo.png" id="navbar-logo"></a>
+		<div class="search-box">
+			<input type="text" name="search-input" class="search-txt" placeholder="Type to search"/>
+			<a class="search-btn" href="#">
+			<i class="fas fa-search"></i>
+			</a>
+		</div>
+		<a href="userlogin.html" id="username"><p>Connected as: <b id="user">username</b></p></a>
+	</header>
+
+	<div class="container">
+		<div class="section1">
+			<div class="report-and-date">
+				<input onClick="window.location.href='userreport.html'" id="report-link" class="buttons" value="Report a bug">
+				<b id="date"></b>
+				<script>
+					var month_array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+					var n = new Date();
+					var y = n.getFullYear();
+					var m = n.getMonth();
+					var d = n.getDate();
+					document.getElementById("date").innerHTML = "Date: " + d + " " + month_array[m] + " " + y;
+				</script>
+			</div>
+		</div>
+
+		<div class="section2">
+			<div class="report-table">
+
+					<div class="table-row table-head">
+						<div class="text">Description</div>
+						<div class="text">OS/Browser</div>
+						<div class="text">User</div>
+						<div class="text">Date</div>
+					</div>
+
+					<div class="table-row">
+						<div class="text">impossible to upload new file</div>
+						<div class="text">MacOS / Chrome</div>
+						<div class="text">Jean Michel Fistule</div>
+						<div class="text">10/01/1992</div>
+					</div>
+
+					<div class="table-row">
+						<div class="text">example</div>
+						<div class="text">example</div>
+						<div class="text">example</div>
+						<div class="text">example</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

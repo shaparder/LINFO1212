@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="website for linfo1212">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- <meta http-equiv="refresh" content="30"> -->
+	<link rel="stylesheet" href="css/master.css">
+	<link href="https://fonts.googleapis.com/css?family=Share+Tech&display=swap" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<title>Big Report - BountyHunter</title>
+</head>
+<body>
+	<header id="navbar" class="navbar">
+		<a href="home.html" id="title"><img src="img/bounty-hunter-logo.png" id="navbar-logo"></a>
+		<div class="search-box">
+			<input type="text" name="search-input" class="search-txt" placeholder="Type to search"/>
+			<a class="search-btn" href="#">
+			<i class="fas fa-search"></i>
+			</a>
+		</div>
+		<a href="userlogin.html" id="username"><p>Connected as: <b id="user">username</b></p></a>
+	</header>
+
+	<div class="container">
+		<div class="section1">
+			<div class="form-container">
+				<form id="account-form-old" action="#" method="post">
+					<div class="text-center-align">
+						<h2>Signal a bug</h2>
+					</div>
+					<div class="row">
+						<label for="description-bug">Description</label>
+						<textarea id="description-bug" placeholder="What's the problem ?"></textarea>
+					</div>
+					<div class="row">
+						<label for="system-browser">OS/Browser</label>
+						<textarea id="system-browser" placeholder="OS and Browser used ?"></textarea>
+					</div>
+					<div class="text-center-align">
+							<input form="account-form-old" class="buttons" id="account-submit-old" type="submit" value="Connect" role="button">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
