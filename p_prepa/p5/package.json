@@ -1,0 +1,18 @@
+{
+	"name": "p5",
+	"version": "1.0.0",
+	"private": true,
+	"description": "ucl projet prep",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"server": "nodemon index.js"
+	},
+	"author": "shaparder",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^3.1.0",
+		"nodemon": "^1.19.4"
+	}
+}

@@ -1,0 +1,40 @@
+
+<div class="section1">
+	<div class="report-and-date">
+		<input onClick="window.location.href='userreport.html'" id="report-link" class="buttons" value="Report a bug">
+		<b id="date"></b>
+		<script>
+			var month_array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+			var n = new Date();
+			var y = n.getFullYear();
+			var m = n.getMonth();
+			var d = n.getDate();
+			document.getElementById("date").innerHTML = "Date: " + d + " " + month_array[m] + " " + y;
+		</script>
+	</div>
+</div>
+
+<div class="section2">
+	<div class="report-table">
+		<div class="table-row table-head">
+			<div class="text">Description</div>
+			<div class="text">OS/Browser</div>
+			<div class="text">User</div>
+			<div class="text">Date</div>
+		</div>
+
+		<div class="table-row">
+			<div class="text">impossible to upload new file</div>
+			<div class="text">MacOS / Chrome</div>
+			<div class="text">Jean Michel Fistule</div>
+			<div class="text">10/01/1992</div>
+		</div>
+
+		<div class="table-row">
+			<div class="text">example</div>
+			<div class="text">example</div>
+			<div class="text">example</div>
+			<div class="text">example</div>
+		</div>
+	</div>
+</div>

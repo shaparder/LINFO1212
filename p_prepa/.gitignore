@@ -1,0 +1,6 @@
+#ignore packeges installed by npm
+
+node_modules
+package-lock.json
+.DS_Store
+lessons

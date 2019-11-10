@@ -1,0 +1,38 @@
+form label {
+	padding: 12px 12px 12px 0;
+}
+
+form input[type=submit] {
+	background-color: var(--buttons);
+	color: var(--light-font);
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+form input[type=submit]:hover {
+	background-color: var(--light-font);
+	color: var(--buttons);
+}
+
+form .row {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+	flex-wrap: nowrap;
+	margin: 8px 0 16px 0;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form textarea {
+	padding: 12px;
+	border: 1px solid var(--light-font);
+	border-radius: 4px;
+	resize: vertical;
+	flex-basis: 75%;
+}
+
+form .row label {
+	flex-basis: 25%;
+	text-align: center;
+}
+

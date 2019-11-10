@@ -1,0 +1,21 @@
+.container {
+	margin: 100px 5% 5% 5%;
+	width: 90%;
+	height: auto;
+}
+
+.section1 {
+	margin: 0;
+	width: 100%;
+	padding: 20px 10px 40px 10px;
+	background-color: var(--bg-section2);
+	color: var(--light-font);
+}
+
+.section2 {
+	margin: 0;
+	width: 100%;
+	padding: 20px 10px 40px 10px;
+	background-color: var(--bg-section1);
+	color: var(--light-font);
+}

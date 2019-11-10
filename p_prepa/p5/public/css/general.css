@@ -1,0 +1,41 @@
+:root {
+	--light-font: #F8F8FF;
+	--dark-font: #333;
+	--bg-section1: #1561ad;
+	--bg-section2: #1c77ac;
+	--buttons: #1dbab4;
+	--important: #fc5226;
+	--bg: #1d1e22;
+	--navbar: #393f4d;
+}
+
+body {
+	background-color: var(--bg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: linear-gradient(var(--navbar), var(--bg));
+	font-family: 'Share Tech', sans-serif;
+}
+
+
+.buttons {
+	background-color: var(--buttons);
+	color: var(--light-font);
+	text-decoration: none;
+	border: none;
+	height:50px;
+	width:auto;
+	cursor:pointer;
+	text-align: center;
+	font-size: 16px;
+}
+	.buttons:hover{
+		color: var(--buttons);
+		background-color: var(--light-font);
+	}
+
+.text-center-align {
+	text-align: center !important;
+	height: 100%;
+	margin-bottom: 16px;
+}
