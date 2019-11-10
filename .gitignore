@@ -1,0 +1,5 @@
+specs_tex/*
+!p_specs.pdf
+!p_specs.tex
+
+.DS_Store
