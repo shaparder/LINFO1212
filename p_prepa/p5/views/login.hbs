@@ -1,0 +1,52 @@
+
+	<div class="container-doubleform">
+		<div class="section1">
+			<div class="form-container">
+				<form id="account-form-old" action="/process?form=login" method="post">
+					<div class="text-center-align">
+						<h2>Existing Account</h2>
+					</div>
+					<div class="row">
+						<label for="username-old">Username</label>
+						<input type="text" id="username-old" placeholder="Your username...">
+					</div>
+					<div class="row">
+						<label for="password-old">Password</label>
+						<input type="password" id="password-old" placeholder="Your password...">
+					</div>
+					<div class="text-center-align">
+							<input form="account-form-old" class="buttons" id="account-submit-old" type="submit" value="Connect" role="button">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="section2">
+			<div class="form-container">
+				<form id="account-form-new" action="/process?form=register" method="post">
+					<div class="text-center-align">
+						<h2>New Account</h2>
+					</div>
+					<div class="row">
+						<label for="username-new">Username</label>
+						<input type="text" id="username-new"placeholder="Your username...">
+					</div>
+					<div class="row">
+						<label for="username-existing">Password</label>
+						<input type="password" id="password-new"placeholder="Your password...">
+					</div>
+					<div class="row">
+						<label for="email-new">Email</label>
+						<input type="email" id="email-new" placeholder="Your Email...">
+					</div>
+					<div class="row">
+						<label for="name-new">Name</label>
+						<input type="text" id="name-new"placeholder="Your full name...">
+					</div>
+					<div class="text-center-align">
+						<input form="account-form-new" class="buttons" id="new-account-submit" type="submit" value="Register" role="button">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
