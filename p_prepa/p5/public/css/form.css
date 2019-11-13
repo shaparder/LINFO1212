@@ -1,8 +1,8 @@
-form label {
+.container form label {
 	padding: 12px 12px 12px 0;
 }
 
-form input[type=submit] {
+.container form input[type=submit] {
 	background-color: var(--buttons);
 	color: var(--light-font);
 	padding: 12px 20px;
@@ -10,12 +10,12 @@ form input[type=submit] {
 	cursor: pointer;
 }
 
-form input[type=submit]:hover {
+.container form input[type=submit]:hover {
 	background-color: var(--light-font);
 	color: var(--buttons);
 }
 
-form .row {
+.container form .row {
 	display: flex;
 	justify-content: center;
 	align-items: baseline;
@@ -23,7 +23,7 @@ form .row {
 	margin: 8px 0 16px 0;
 }
 
-form input[type=text], form input[type=password], form input[type=email], form textarea {
+.container form input[type=text], form input[type=password], form input[type=email], form textarea {
 	padding: 12px;
 	border: 1px solid var(--light-font);
 	border-radius: 4px;
@@ -31,7 +31,7 @@ form input[type=text], form input[type=password], form input[type=email], form t
 	flex-basis: 75%;
 }
 
-form .row label {
+.container form .row label {
 	flex-basis: 25%;
 	text-align: center;
 }

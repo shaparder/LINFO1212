@@ -6,10 +6,7 @@
 		<script>
 			var month_array = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 			var n = new Date();
-			var y = n.getFullYear();
-			var m = n.getMonth();
-			var d = n.getDate();
-			document.getElementById("date").innerHTML = "Date: " + d + " " + month_array[m] + " " + y;
+			document.getElementById("date").innerHTML = "Date: " + n.getDate() + " " + month_array[n.getMonth()] + " " + n.getFullYear();
 		</script>
 	</div>
 </div>
@@ -23,18 +20,15 @@
 			<div class="text">Date</div>
 		</div>
 
+		{{#if reports}}
+		{{#each reports}}
 		<div class="table-row">
-			<div class="text">impossible to upload new file</div>
-			<div class="text">MacOS / Chrome</div>
-			<div class="text">Jean Michel Fistule</div>
-			<div class="text">10/01/1992</div>
+			<div class="text">{{this.desc}}</div>
+			<div class="text">{{this.envn}}</div>
+			<div class="text">{{this.user}}</div>
+			<div class="text">{{this.date}}</div>
 		</div>
-
-		<div class="table-row">
-			<div class="text">example</div>
-			<div class="text">example</div>
-			<div class="text">example</div>
-			<div class="text">example</div>
-		</div>
+		{{/each}}
+		{{/if}}
 	</div>
 </div>

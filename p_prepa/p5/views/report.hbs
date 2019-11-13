@@ -1,16 +1,16 @@
 <div class="section1">
 	<div class="form-container">
-		<form id="account-form-old" action="#" method="post">
+		<form id="account-form-old" action="/processreport" method="post">
 			<div class="text-center-align">
 				<h2>Signal a bug</h2>
 			</div>
 			<div class="row">
-				<label for="description-bug">Description</label>
-				<textarea id="description-bug" placeholder="What's the problem ?"></textarea>
+				<label for="desc">Description</label>
+				<textarea id="desc" name="desc" placeholder="What's the problem ?"></textarea>
 			</div>
 			<div class="row">
-				<label for="system-browser">OS/Browser</label>
-				<textarea id="system-browser" placeholder="OS and Browser used ?"></textarea>
+				<label for="envn">OS/Browser</label>
+				<textarea id="envn" name="envn" placeholder="OS and Browser used ?"></textarea>
 			</div>
 			<div class="text-center-align">
 					<input form="account-form-old" class="buttons" id="account-submit-old" type="submit" value="Connect" role="button">
